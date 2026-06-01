@@ -31,7 +31,6 @@ Omnispect was engineered to solve a critical vulnerability in modern banking and
 ## 🛠️ How to Run Locally
 
 ### 1. Start the Backend (FastAPI)
-```bash
 cd backend
 # Activate virtual environment (Windows)
 .\venv\Scripts\activate
@@ -39,3 +38,15 @@ cd backend
 pip install fastapi uvicorn python-multipart opencv-python numpy
 # Boot the server
 uvicorn main:app --reload --port 8000
+
+### 2. Start the Frontend (React)
+# Open a separate terminal window:
+cd Frontend
+npm install
+npm run dev
+
+### 3. Launch
+Navigate to http://localhost:5173 in your browser to access the Omnispect dashboard.
+
+---
+*Built for the Suraksha Hackathon.*
